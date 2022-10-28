@@ -1,0 +1,36 @@
+div {
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: .5rem 4rem;
+    width: fit-content;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
